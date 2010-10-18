@@ -1,0 +1,36 @@
+#summary introduction to the Yubikeymulator library
+
+= Introduction =
+
+The Yubikeymulator is used to simulate the Yubikey operations through 
+a set of simple java methods. Simulation includes: Yubikey insert and 
+Yubikey click operations.
+
+  * USAGE & COPYING: all licensed under LGPL as described under LICENSE file 
+
+  * Build: see provided pom.xml, use Maven 2 to build
+
+  * src/main/java/: source code of Yubikeymulator package.
+
+  * src/test/java/: junit tests of the Yubikeymulator package.
+  
+  * yubikey.properties : a sample file used to demonstrate the Yubikeymulator usage.
+  
+
+== Dependencies == 
+
+This project requires Java 5 or above.
+Depending on Yubico's wsapi-1.0.jar and yubikey-base-1.1 project.
+Also required junit-4.8.1.jar
+
+
+== Run the code ==
+
+Simply build a jar and run.
+Optionally you can provide a filename argument for the Yubikey properties file.
+
+IMPORTANT: for consistent results, make sure your machine time is correctly set.
+
+== Questions? ==
+
+Talk to Yuval at <yuval@metro-net.co.il>
